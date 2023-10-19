@@ -50,14 +50,14 @@ function generateHTML(data) {
       <header class="d-flex justify-content-center">
           <h1>${data.name}</h1>
       </header>
-      <p><a class="link-opacity-100 d-flex justify-content-center m-5" href="https://github.com/${data.username}">Github Link: ${data.username}</a></p>
+      <p class="link-opacity-100 d-flex justify-content-center m-5">Github Link: <a href="https://github.com/${data.username}"> ${data.username}</a></p>
       <div class="mx-auto card m-5" style="width: 18rem;">
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">${data.email}</li>
+            <li class="list-group-item">You may contact me at ${data.email}</li>
           </ul>
       </div>
       <div class="d-flex justify-content-center m">
-          <p>My facorite coding language is ${data.language}</p>
+          <p>My favorite coding language is ${data.language}</p>
       </div>
       
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
